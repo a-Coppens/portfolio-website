@@ -7,13 +7,13 @@
 
 import * as React from "react"
 import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
-
-import Header from "./header"
+//import { useStaticQuery, graphql } from "gatsby"
 import "./layout.css"
+import Navbar from "./navbar"
+
 
 const Layout = ({ children }) => {
-  const data = useStaticQuery(graphql`
+  /*const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
         siteMetadata {
@@ -21,11 +21,11 @@ const Layout = ({ children }) => {
         }
       }
     }
-  `)
+  `)*/
 
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
+      <Navbar></Navbar>
       <div
         style={{
           margin: `0 auto`,
