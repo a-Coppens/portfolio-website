@@ -9,6 +9,7 @@ Icons
 
 
 TODO:
+ - responsive design
  - decide portfolio items to inclde
  - add custom portfolio item props ✔
  - add links between pages
