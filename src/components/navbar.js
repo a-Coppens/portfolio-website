@@ -2,6 +2,7 @@ import * as React from "react"
 import "./layout.css"
 import {GiHamburgerMenu} from "react-icons/gi"
 import {IoMoonOutline, IoMoon} from "react-icons/io5"
+import { Link } from "gatsby"
 
 const Navbar = () => {
     
@@ -18,9 +19,10 @@ const Navbar = () => {
             <h2 className="aboutMe">Software Developer, 3D Artist, Musician</h2>
             <div className="aboutMe">
                 <ul>
-                    <li><a href="../" className="navAnchor">Home</a></li>
-                    {/*<li>Portfolio</li>*/}
-                    <li><a href="../contact" className="navAnchor">Contact</a></li>
+                    
+                    <li><Link to="../" className="navAnchor">Home</Link></li>
+                    
+                    <li><Link to="contact" className="navAnchor">Contact</Link></li>
                     <li>3D Art</li>
                     <li>Music</li>
                 </ul>

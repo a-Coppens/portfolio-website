@@ -7,7 +7,7 @@ import Seo from "../components/seo"
 const ContactPage = () => (
   <div className="dark" style={{height: "100%"}}>
   <Layout>
-    <Seo title="Home" />
+    <Seo title="Contact" />
    
     <h1 style={{margin: `1rem`}}>Contact</h1>
     <p style={{margin: `1rem`}}>Email: <a href="mailto:adam-coppens@outlook.com">adam-coppens@outlook.com</a></p>
