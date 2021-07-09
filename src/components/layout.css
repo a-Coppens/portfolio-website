@@ -6,15 +6,16 @@
   
 }
 
-#background {
-  background: azure;
-  
+html, body, #___gatsby, #gatsby-focus-wrapper {
+  height: auto;
 }
 
 #foreground {
-  background-color: rgb(51,51,51);
-
-  height: 100%;
+  background-color: rgb(43, 41, 44);
+  margin-left: 10%;
+  margin-right: 10%;
+  box-shadow: 0 6px 60px 0 rgba(0, 0, 0, 0.6), 0 6px 60px 0 rgba(0, 0, 0, 0.6);
+ 
 }
 
 #hamburgerMenu {
@@ -35,7 +36,6 @@ a:visited, a {
 
 .aboutMe{
   margin: 1rem;
-
 }
 
 ul, li{
@@ -62,12 +62,13 @@ li, a {
   transition: 0.5s;
 
 }
-li:hover a, li:hover, #hamburgerMenu:hover{
+li:hover, #hamburgerMenu:hover{
   background: #737B80;
 }
 
 hr {
-  margin-left: 0.5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
   border: none;
   height: 1px;
   background-color: rgb(207, 214, 214);

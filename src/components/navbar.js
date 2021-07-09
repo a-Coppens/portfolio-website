@@ -21,7 +21,7 @@ const Navbar = () => {
                     <li><a href="../../portfolio-website" className="navAnchor">Home</a></li>
                     {/*<li>Portfolio</li>*/}
                     <li><a href="contact" className="navAnchor">Contact</a></li>
-                    <li>3D art</li>
+                    <li>3D Art</li>
                     <li>Music</li>
                 </ul>
             </div>
