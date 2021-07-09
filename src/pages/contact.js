@@ -5,6 +5,7 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 
 const ContactPage = () => (
+  <div className="dark" style={{height: "100%"}}>
   <Layout>
     <Seo title="Home" />
    
@@ -12,6 +13,7 @@ const ContactPage = () => (
     <p style={{margin: `1rem`}}>Email: <a href="mailto:adam-coppens@outlook.com">adam-coppens@outlook.com</a></p>
     <p style={{margin: `1rem`}}>LinkedIn: <a href="https://www.linkedin.com/in/adam-coppens-a44956190/">https://www.linkedin.com/in/adam-coppens-a44956190/</a></p>
   </Layout>
+  </div>
 )
 
 export default ContactPage

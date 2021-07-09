@@ -14,7 +14,7 @@ import background from "../images/fancy-pants.jpg"
 
 const IndexPage = () => (
  
-   <div className="dark" style={{height: "100%", backgroundImage: {background}}}>
+   <div className="dark" style={{height: "100%"}}>
    <Layout>
       <Seo title="Home" />
       <h1 style={{margin: `2rem`}}>Technologies</h1>
