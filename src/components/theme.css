@@ -1,13 +1,14 @@
-.light, a:visited, html{
-    background-color:rgb(243, 250, 250);
-    color: rgb(51,51,51);
+.light,
+a:visited,
+html {
+  background-color: rgb(243, 250, 250);
+  color: rgb(51, 51, 51);
 }
 
-.dark, a:visited {
-    background-image: url(../images/fancy-pants.jpg);
-    color: rgb(243, 250, 250);
-    background-attachment: fixed;
-    padding-top: 2%;
-    padding-bottom: 2%;
- 
+.dark,
+a:visited {
+  color: rgb(243, 250, 250);
+  background-attachment: fixed;
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
