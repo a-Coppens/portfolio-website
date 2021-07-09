@@ -20,9 +20,9 @@ const Navbar = () => {
             <div className="aboutMe">
                 <ul>
                     
-                    <li><Link to="../portfolio-website" className="navAnchor">Home</Link></li>
+                    <li><Link to="../../portfolio-website" className="navAnchor">Home</Link></li>
                     
-                    <li><Link to="../portfolio-website/contact" className="navAnchor">Contact</Link></li>
+                    <li><Link to="../../portfolio-website/contact" className="navAnchor">Contact</Link></li>
                     <li>3D Art</li>
                     <li>Music</li>
                 </ul>
