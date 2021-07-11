@@ -8,7 +8,8 @@
 
 html,
 body,
-#___gatsby {
+#___gatsby,
+#gatsby-focs-wrapper {
   height: 100vh;
 }
 
@@ -18,7 +19,6 @@ body,
   height: 100%;
   padding: 2rem;
 }
-
 #foreground {
   background-color: rgb(43, 41, 44);
   margin-left: 10%;
