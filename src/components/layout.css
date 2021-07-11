@@ -8,14 +8,21 @@
 
 html,
 body,
-#___gatsby,
-#gatsby-focus-wrapper {
-  height: auto;
+#___gatsby {
+  height: 100vh;
+}
+
+#background {
+  background-image: url(../../public/static/fancy-pants-52bbdfa6f38f6f94e5a63d928067b3be.jpg);
+  position: relative;
+  height: 100%;
+  padding: 2rem;
 }
 
 #foreground {
   background-color: rgb(43, 41, 44);
   margin-left: 10%;
+  flex-grow: 1;
   margin-right: 10%;
   box-shadow: 0 6px 60px 0 rgba(0, 0, 0, 0.6), 0 6px 60px 0 rgba(0, 0, 0, 0.6);
 }

@@ -25,7 +25,7 @@ const Layout = ({ children }) => {
 
   return (
     <>
-    
+    <div id="background" className="dark">
       <div id="foreground" style={{height: "100%"}}>
         <Navbar></Navbar>
         <div
@@ -47,7 +47,7 @@ const Layout = ({ children }) => {
           </footer>
         </div>
       </div>
- 
+      </div>
     </>
   )
 }
