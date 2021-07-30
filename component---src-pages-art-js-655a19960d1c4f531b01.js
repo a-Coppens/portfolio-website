@@ -1,0 +1,2 @@
+(self.webpackChunkgatsby_starter_default=self.webpackChunkgatsby_starter_default||[]).push([[600],{8765:function(e,t,r){"use strict";r.r(t);var a=r(7294),l=r(6710),n=r(3751);t.default=function(){return a.createElement(l.Z,null,a.createElement(n.Z,{title:"Art"}),a.createElement("h1",{style:{margin:"2rem"}},"Art"),a.createElement("h2",null,"Page is a Work In Progress"))}}}]);
+//# sourceMappingURL=component---src-pages-art-js-655a19960d1c4f531b01.js.map
