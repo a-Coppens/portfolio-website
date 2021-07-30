@@ -1,12 +1,10 @@
 .light,
-a:visited,
 html {
   background-color: rgb(243, 250, 250);
   color: rgb(51, 51, 51);
 }
 
-.dark,
-a:visited {
+.dark {
   color: rgb(243, 250, 250);
   background-attachment: fixed;
   padding-top: 2%;

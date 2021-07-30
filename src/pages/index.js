@@ -25,7 +25,7 @@ const IndexPage = () => (
         </PortfolioItem>
      
       <p>
-        <a href="https://github.com/a-Coppens/portfolio-website">GitHub Repo</a>
+        <a className="noStyleLink" href="https://github.com/a-Coppens/portfolio-website">GitHub Repo</a>
       </p>
     </Layout>
 
