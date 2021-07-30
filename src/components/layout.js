@@ -30,7 +30,9 @@ const Layout = ({ children }) => {
    
       <div id="foreground" style={{height: "100%"}}>
         <Navbar></Navbar>
-        <Header></Header>
+        <div className="shapeContainer">
+         <Header></Header>
+        </div>
         <div
           style={{
             margin: `0 auto`,
