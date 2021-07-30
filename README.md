@@ -1,4 +1,5 @@
 <!-- Developer Generated Content -->
+Live site at: https://a-coppens.github.io/portfolio-website/
 
 To run localhost:8000
  - terminal command
@@ -12,11 +13,10 @@ TODO:
  - responsive design
  - decide portfolio items to inclde
  - add custom portfolio item props ✔
- - add links between pages
  - add more interactivity
  - dark/light mode
  - make navbar work like filter seen https://www.bing.com/images/search?view=detailV2&ccid=XiEgRiIl&id=567FF0384AC2DF3267CD0DEA74FB1259BD72BA10&thid=OIP.XiEgRiIlGYrVW_pEH-pFNgHaF0&mediaurl=https%3A%2F%2Fcolorlib.com%2Fwp%2Fwp-content%2Fuploads%2Fsites%2F2%2Fjevelin-portfolio-website-template.jpg&exph=942&expw=1200&q=portfolio+website+example&simid=608042845220009592&ck=FE3B63E56C9C943054171D9FA113A020&selectedindex=2&form=IRPRST&ajaxhist=0&ajaxserp=0&vt=0&sim=11
-  & move the contact upto hamburger menu & home top left?
+
 
 
 
