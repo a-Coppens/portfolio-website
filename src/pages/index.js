@@ -1,35 +1,36 @@
 import React from "react"
 import Layout from "../components/layout"
 import "../components/theme.css"
-import PortfolioItem  from "../components/portfolioItem"
+import PortfolioItem from "../components/portfolioItem"
 import Seo from "../components/seo"
+import Header from "../components/header"
 
 const IndexPage = () => (
- 
-  
-    <Layout>
-      <Seo title="Home" />
-      <h1 style={{margin: `2rem`}}>Technologies</h1>
-        <h2>Proficient languages: C#, C++, Java, JavaScript, SQL</h2>
-        <h2>Proficient Frameworks: .Net, Reacts.js, Node.js</h2>
-        <h2>Other Technologies: Microsoft Azure, Unity Engine, Git, Docker</h2>
-      <h1 style={{margin: `2rem`}}>Development Portfolio</h1>
-        <p>*Note: more to be added</p>
-        <PortfolioItem title="PHP-SREPS" summary="Peoples Health Pharmacy, mock Sales System" 
-                      desc="My first full stack team based project through university, whilst the project itself isn't implemented the best the experience was invaluable."
-                      link="https://github.com/a-Coppens/PHP-SRePS">
-        </PortfolioItem>
+  <Layout>
+    <Seo title="Home" />
+    <div className="shapeContainer" style={{ height: "100%" }}>
+      <Header></Header>
+    </div>
+    <h1 style={{ margin: `2rem` }}>Technologies</h1>
+    <h2>Proficient languages: C#, Java, JavaScript, SQL</h2>
+    <h2>Proficient Frameworks: .Net, Reacts.js, Java Spring</h2>
+    <h2>Other Technologies: AWS, Unity Engine, Jenkins, Docker</h2>
+    <h1 style={{ margin: `2rem` }}>Professional Experience</h1>
 
-        <PortfolioItem title="Client Project" summary="Decision Support System" 
-                      desc="University based project developing a decision support system for a government agency. Source code unavailable to be shown">
-        </PortfolioItem>
-     
-      <p>
-        <a className="noStyleLink" href="https://github.com/a-Coppens/portfolio-website">GitHub Repo</a>
-      </p>
-    </Layout>
+    <PortfolioItem
+      title="Mediaocean"
+      summary="Junior Software Developer - (June 2022 - Present)"
+      desc="Full-stack MVC on Mediaocean's Ignitia"
+      link="https://www.mediaocean.com/company"
+    ></PortfolioItem>
 
-
+    <PortfolioItem
+      title="Seisma / National Australia Bank"
+      summary="Graduate Consultant - (Aug 2021 - June 2022)"
+      desc="Working on Enterprise Documents Services & Transaction Lifecycle Management"
+      link="https://www.nab.com.au/"
+    ></PortfolioItem>
+  </Layout>
 )
 
 export default IndexPage

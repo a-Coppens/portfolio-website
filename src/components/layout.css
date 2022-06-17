@@ -4,8 +4,17 @@
   padding: 0;
   margin: 0;
   text-align: center;
+  text-decoration: none;
 }
 
+body {
+  min-height: 100vh;
+  position: relative;
+}
+
+footer {
+  bottom: 0;
+}
 #foreground {
   /*background-color: rgb(43, 41, 44);*/
   box-shadow: 0 6px 60px 0 rgba(0, 0, 0, 0.6), 0 6px 60px 0 rgba(0, 0, 0, 0.6);
@@ -59,10 +68,11 @@ html {
 
 .shapeContainer {
   filter: drop-shadow(0px 10px 5px rgba(0, 0, 0, 0.6));
+  margin: 0 auto;
 }
-a,
-a:visited {
-  color: rgb(243, 250, 250);
+
+contact-links, contact-links:visited {
+  color: rgb(51, 51, 51);
 }
 
 .aboutMe {
@@ -76,15 +86,23 @@ ul {
 }
 
 .navbar-item {
-  border: 1% solid;
-  border-radius: 1rem;
-  padding: 0.6rem;
+  color: rgb(243, 250, 250);
+  padding: 0.5rem;
   text-decoration: none;
-  transition: 0.5s;
 }
 
-.navbar-item:hover {
-  background: #737b80;
+.navbar-item::after {
+  display: block;
+  content: '';
+  border-bottom:  2px solid rgb(27, 124, 235);
+  width: 100%;
+  transform: scaleX(0);
+  transition: transform .3s ease-in-out;
+}
+
+.navbar-item:hover::after {
+  transform: scaleX(1);
+  transform-origin: 0% 50%;
 }
 
 .noStyleLink,
@@ -116,22 +134,30 @@ hr {
   color: rgb(51, 51, 51);
 }
 
-@keyframes shake {
-  0%,
-  60%,
-  100% {
-    transform: rotate(0deg);
-  }
-  5%,
-  15%,
-  25%,
-  35% {
-    transform: rotate(-20deg);
-  }
-  10%,
-  20%,
-  30%,
-  40% {
-    transform: rotate(20deg);
-  }
+.footer-icon {
+  margin-left: 1em;
+  margin-right: 1em;
+  color: rgb(51, 51, 51);
+  transition: all .2s ease-in-out; 
 }
+
+#githubIcon:hover {
+  color: #333333;
+  transform: scale(1.3); 
+}
+
+#linkedInIcon:hover {
+  color: #0072b1;
+  transform: scale(1.3); 
+}
+
+#twitterIcon:hover {
+  color: #1DA1F2;
+  transform: scale(1.3); 
+}
+
+#twitchIcon:hover {
+  color: #6441A4;
+  transform: scale(1.3);
+}
+

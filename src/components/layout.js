@@ -7,54 +7,52 @@
 
 import * as React from "react"
 import PropTypes from "prop-types"
-//import { useStaticQuery, graphql } from "gatsby"
 import "./layout.css"
 import Navbar from "./navbar"
 import Header from "./header"
-import ThemeIcon from "./themeIcon"
-
+import { BsGithub, BsLinkedin, BsTwitter, BsTwitch } from "react-icons/all"
 
 const Layout = ({ children }) => {
-  /*const data = useStaticQuery(graphql`
-    query SiteTitleQuery {
-      site {
-        siteMetadata {
-          title
-        }
-      }
-    }
-  `)*/
-
   return (
     <>
-   
-      <div id="foreground" style={{height: "100%"}}>
+      <div id="foreground" style={{ height: "100%" }}>
         <Navbar></Navbar>
-        <div className="shapeContainer">
-         <Header></Header>
-        </div>
         <div
           style={{
             margin: `0 auto`,
-            maxWidth: 960,
-            padding: `0 1.0875rem 1.45rem`,
           }}
         >
           <main>{children}</main>
           <footer
             style={{
               marginTop: `2rem`,
-              
             }}
           >
-            © {new Date().getFullYear()}, Built with
-            {` `}
-            <a className="noStyleLink" href="https://www.gatsbyjs.com">Gatsby</a>
+            <div>
+              <a class="footer-link">
+                <BsTwitch className="footer-icon" id="twitchIcon" size={24} />
+              </a>
+              <a class="footer-link" href="https://twitter.com/a_coppensdev">
+                <BsTwitter className="footer-icon" id="twitterIcon" size={24} />
+              </a>
+              <a
+                class="footer-link"
+                href="https://www.linkedin.com/in/adam-coppens-a44956190/"
+              >
+                <BsLinkedin
+                  className="footer-icon"
+                  id="linkedInIcon"
+                  size={24}
+                />
+              </a>
+              <a class="footer-link" href="https://github.com/a-Coppens">
+                <BsGithub className="footer-icon" id="githubIcon" size={24} />
+              </a>
+              <p>Adam Coppens, © {new Date().getFullYear()}</p>
+            </div>
           </footer>
-          <ThemeIcon></ThemeIcon>
         </div>
       </div>
-
     </>
   )
 }
