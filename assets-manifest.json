@@ -2,5 +2,9 @@
   "main.js": "render-page.js",
   "render-page.js.map": "render-page.js.map",
   "static/Armadillo.mp4": "static/Armadillo-bd050e28052489a76a1816250326a043.mp4",
-  "static/WolfAndSwallow.mp3": "static/WolfAndSwallow-41c5f2fc5e6f592e02f1aec3aee2e122.mp3"
+  "static/ImprovedBlockades.mp3": "static/ImprovedBlockades-9b24c79beedd7ce662baee1fe7a09b4c.mp3",
+  "static/WolfAndSwallow.mp3": "static/WolfAndSwallow-41c5f2fc5e6f592e02f1aec3aee2e122.mp3",
+  "static/moody.wav": "static/moody-0791ced3820345be84f74847822c897b.wav",
+  "static/myfav.wav": "static/myfav-28bf4f65bb9ab5cca48e000e29dc85d5.wav",
+  "static/sadboio.mp3": "static/sadboio-8500b79ef778ff122937a611d7ad2a28.mp3"
 }
