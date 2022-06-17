@@ -161,3 +161,8 @@ hr {
   transform: scale(1.3);
 }
 
+#mailIcon:hover {
+  color: #c5510e;
+  transform: scale(1.3);
+}
+

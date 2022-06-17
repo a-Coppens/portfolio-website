@@ -10,7 +10,13 @@ import PropTypes from "prop-types"
 import "./layout.css"
 import Navbar from "./navbar"
 import Header from "./header"
-import { BsGithub, BsLinkedin, BsTwitter, BsTwitch } from "react-icons/all"
+import {
+  BsGithub,
+  BsLinkedin,
+  BsTwitter,
+  BsTwitch,
+  AiOutlineMail,
+} from "react-icons/all"
 
 const Layout = ({ children }) => {
   return (
@@ -47,6 +53,13 @@ const Layout = ({ children }) => {
               </a>
               <a class="footer-link" href="https://github.com/a-Coppens">
                 <BsGithub className="footer-icon" id="githubIcon" size={24} />
+              </a>
+              <a class="footer-link" href="mailto:adam-coppens@outlook.com">
+                <AiOutlineMail
+                  className="footer-icon"
+                  id="mailIcon"
+                  size={24}
+                />
               </a>
               <p>Adam Coppens, © {new Date().getFullYear()}</p>
             </div>
